@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@eu-g3-014>
+Subject: Job 165398291: <python marscf_main.py --dataset_name cifar10 --coupling mixlogcdf --batch_size 64 --K 4 --C 256 --from_checkpoint> in cluster <euler> Exited
+
+Job <python marscf_main.py --dataset_name cifar10 --coupling mixlogcdf --batch_size 64 --K 4 --C 256 --from_checkpoint> was submitted from host <eu-login-20> by user <zzhiwu> in cluster <euler> at Mon Mar 15 13:13:34 2021
+Job was executed on host(s) <4*eu-g3-014>, in queue <gpu.4h>, as user <zzhiwu> in cluster <euler> at Mon Mar 15 13:43:08 2021
+</cluster/home/zzhiwu> was used as the home directory.
+</cluster/scratch/zzhiwu/mar-scf/flow_modules> was used as the working directory.
+Started at Mon Mar 15 13:43:08 2021
+Terminated at Mon Mar 15 13:43:10 2021
+Results reported at Mon Mar 15 13:43:10 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python marscf_main.py --dataset_name cifar10 --coupling mixlogcdf --batch_size 64 --K 4 --C 256 --from_checkpoint
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.18 sec.
+    Max Memory :                                 8 MB
+    Average Memory :                             -
+    Total Requested Memory :                     28000.00 MB
+    Delta Memory :                               27992.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   3 sec.
+    Turnaround time :                            1776 sec.
+
+The output (if any) follows:
+
+python: can't open file 'marscf_main.py': [Errno 2] No such file or directory
